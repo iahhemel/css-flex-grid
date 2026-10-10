@@ -1,0 +1,28 @@
+.hero{
+    display: flex;
+    background-color: lightgreen;
+    padding: 20px;
+}
+.hero-content{
+    flex: 1;
+    text-align: center;
+    
+}
+.hero-image{
+    flex: 1;
+   
+}
+.hero-image img{
+    width: 100%;
+   
+}
+.hero-content button{
+    background-color: green;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+.hero-content button:hover{
+    background-color: darkgreen;
+}

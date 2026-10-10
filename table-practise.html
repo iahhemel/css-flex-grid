@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Practise</title>
+    <style>
+        body{
+            background-color:lightsteelblue ;
+           
+        }
+        table{
+           border-collapse: collapse;
+           /* text-align: center; */
+        }
+        td , th {
+            border: 1px solid gray;
+            padding: 5px 10px;
+        }
+        th{
+            background-color: lightgoldenrodyellow;
+        }
+       tbody td{
+        background-color: aliceblue;
+       }
+        tfoot{
+            background-color: lightseagreen;
+            text-align: right;
+            font-size: small;
+        }
+        caption{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Some Information showing in the table</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, iure.</p>
+    <table>
+        <caption>Detailed Information</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Id</th>
+                <th>Subject</th>
+                <th>Marks</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hemel</td>
+                <td>24-58257-2</td>
+                <td>CSE</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Abinta</td>
+                <td>2302112</td>
+                <td>CHE</td>
+                <td>80 </td>
+            </tr>
+            <tr>
+                <td>Azraf</td>
+                <td>24-582592-2</td>
+                <td>CSE</td>
+                <td>95</td>
+            </tr>
+            <tr>
+                <td>Minhaz</td>
+                <td>24-582543-2</td>
+                <td>CSE</td>
+                <td>93</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+              <td colspan="4">@teletalk</td>
+        </tfoot>
+    </table>
+</body>
+</html>
